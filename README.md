@@ -35,6 +35,7 @@ This application is built with the following technologies:
 ### The Screenshots of the front-end of the system
 #### The Home Page
 <img src="https://github.com/Bonifaceebuka/datamax-registrars-assessment/blob/main/screenshots/home.PNG">
+
 #### The Book Edit Page
 <img src="https://github.com/Bonifaceebuka/datamax-registrars-assessment/blob/main/screenshots/edit.PNG">
 
