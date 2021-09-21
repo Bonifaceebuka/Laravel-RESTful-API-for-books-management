@@ -23,15 +23,15 @@ class BookController extends Controller
         foreach ($books as $book) {
                 $book_authors = explode(',',$book->authors);
                 $total_authors = count($book_authors);
-                foreach ($book_authors as $author) {
-                    $authors[] = $author;
-                }
+                // foreach ($book_authors as $author) {
+                //     $authors[] = $author;
+                // }
             $data[] = [ 
                 'id'=>$book->id,
                 'name'=>$book->name,
                 'isbn'=>$book->isbn,
                 'authors'=>[
-                            $authors
+                            $book_authors
                             ],
                 'number_of_pages'=>$book->number_of_pages,
                 'publisher'=>$book->publisher,
@@ -71,7 +71,7 @@ class BookController extends Controller
             'isbn' => 'required|string|max:255',
             'authors' => 'required|string|max:255',
             'country' => 'required|string|max:255',
-            'number_of_pages' => 'required|int|max:11',
+            'number_of_pages' => 'required|int',
             'publisher' => 'required|string|max:255',
             'release_date' => 'required|date|max:255',
         ]);
@@ -195,7 +195,7 @@ class BookController extends Controller
             'isbn' => 'required|string|max:255',
             'authors' => 'required|string|max:255',
             'country' => 'required|string|max:255',
-            'number_of_pages' => 'required|int|max:11',
+            'number_of_pages' => 'required|int',
             'publisher' => 'required|string|max:255',
             'release_date' => 'required|date|max:255',
         ]);

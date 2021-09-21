@@ -20,21 +20,21 @@ This application is built with the following technologies:
 
 
 ### This is how you can install this application
-01. Clone this Repository(Repo) with the following command `git clone https://github.com/Bonifaceebuka/datamax-registrars-assessment.git`
-02. Move to the DIR of the Repo `cd datamax-registrars-assessment`
-03. Install composer with `composer install`
-04. Save .env.example file to .env or run this command: `cp .env.example .env`
-	Open the .env file and set the Database configurations as follows:
+1. Clone this Repository(Repo) with the following command `git clone https://github.com/Bonifaceebuka/datamax-registrars-assessment.git`
+2. Move to the DIR of the Repo `cd datamax-registrars-assessment`
+3. Install composer with `composer install`
+4. Save .env.example file to .env or run this command: `cp .env.example .env`
+5.	Open the .env file and set the Database configurations as follows:
 	DB_CONNECTION=mysql
 	DB_HOST=127.0.0.1
 	DB_PORT=3306
 	DB_DATABASE=YOUR_DATABASE_NAME
 	DB_USERNAME=YOUR_SERVER_USERNAME
 	DB_PASSWORD=YOUR_DATABASE_PASSWORD (Leave it empty if you have none)
-05. Generate new Key with this command: `php artisan key:generate`
-06. Import the database tables with this command: `php artisan migrate`
-09. Start your server with `php artisan serve`
-	Visit localhost::8000/ to see the front-end of the application
+6. Generate new Key with this command: `php artisan key:generate`
+7. Import the database tables with this command: `php artisan migrate` or use the books.sql file in 'db' folder of this project
+8. Start your server with `php artisan serve`
+	Visit localhost:8000/ to see the front-end of the application
 
 
 ### Screenshot
