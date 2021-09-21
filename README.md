@@ -18,9 +18,9 @@ This application is built with the following technologies:
 1. Clone this Repository(Repo) with the following command `git clone https://github.com/Bonifaceebuka/datamax-registrars-assessment.git`
 2. Move to the DIR of the Repo `cd datamax-registrars-assessment`
 3. Install composer with `composer install`
-4. Save .env.example file to .env or run this command: `cp .env.example .env`
+4. Save .env.example file as .env or run this command: `cp .env.example .env`
 5.	Open the .env file and set the Database configurations as follows:
-	DB_CONNECTION=mysql
+	DB_CONNECTION=mysql<br>
 	DB_HOST=127.0.0.1
 	DB_PORT=3306
 	DB_DATABASE=YOUR_DATABASE_NAME
