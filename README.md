@@ -13,11 +13,6 @@ This application is built with the following technologies:
 10.Composer version 2.1.3 2021-06-09 16:31:20
 11. XAMPP(7.3.29)
 
-### System re
-1. Laravel 5.6
-2. Materialize
-3. Admin BSB Material Design
-
 
 ### This is how you can install this application
 1. Clone this Repository(Repo) with the following command `git clone https://github.com/Bonifaceebuka/datamax-registrars-assessment.git`
@@ -37,6 +32,10 @@ This application is built with the following technologies:
 	Visit localhost:8000/ to see the front-end of the application
 
 
-### Screenshot
+### The Screenshots of the front-end of the system
+#### The Home Page
+<img src="https://github.com/Bonifaceebuka/datamax-registrars-assessment/blob/main/screenshots/home.PNG">
+#### The Book Edit Page
+<img src="https://github.com/Bonifaceebuka/datamax-registrars-assessment/blob/main/screenshots/edit.PNG">
 
-<img src="https://github.com/parvez-git/real-estate/blob/master/public/demo/home.jpg">
+
