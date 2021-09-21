@@ -19,13 +19,13 @@ This application is built with the following technologies:
 2. Move to the DIR of the Repo `cd datamax-registrars-assessment`
 3. Install composer with `composer install`
 4. Save .env.example file as .env or run this command: `cp .env.example .env`
-5.	Open the .env file and set the Database configurations as follows:
+5.	Open the .env file and set the Database configurations as follows:<br>
 	DB_CONNECTION=mysql<br>
-	DB_HOST=127.0.0.1
-	DB_PORT=3306
-	DB_DATABASE=YOUR_DATABASE_NAME
-	DB_USERNAME=YOUR_SERVER_USERNAME
-	DB_PASSWORD=YOUR_DATABASE_PASSWORD (Leave it empty if you have none)
+	DB_HOST=127.0.0.1<br>
+	DB_PORT=3306<br>
+	DB_DATABASE=YOUR_DATABASE_NAME<br>
+	DB_USERNAME=YOUR_SERVER_USERNAME<br>
+	DB_PASSWORD=YOUR_DATABASE_PASSWORD (Leave it empty if you have none)<br>
 6. Generate new Key with this command: `php artisan key:generate`
 7. Import the database tables with this command: `php artisan migrate` or use the books.sql file in 'db' folder of this project
 8. Start your server with `php artisan serve`
